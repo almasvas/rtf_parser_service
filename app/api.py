@@ -1,5 +1,5 @@
 from fastapi import APIRouter, UploadFile, File
-from app.service import parse_rtf_file
+from .service import parse_rtf_file
 
 router = APIRouter()
 
